@@ -24,7 +24,7 @@ function Box(props) {
       <boxBufferGeometry args={[1, 1, 1]} />
       <meshStandardMaterial color={hovered ? "cyan" : "lightgreen"} />
     </mesh>
-  );
+  )
 }
 
 function App() {
